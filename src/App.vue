@@ -233,12 +233,5 @@ export default {
   beforeMount() {
     this.getBlockchain();
   }
-  // watch: {
-  //   validateDialog(val) {
-  //     if (!val) return;
-
-  //     setTimeout(() => (this.dialog = false), 4000);
-  //   }
-  // }
 };
 </script>
